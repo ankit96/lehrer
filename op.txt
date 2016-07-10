@@ -1,44 +1,4 @@
 
-hello girls and guys, welcome to an in-depth and practical machine learning course.
-
-the objective of this course is to give you a wholistic understanding of machine learning, covering
-theory, application, and inner workings of supervised, unsupervised, and deep learning algorithms.
-in this series, we'll be covering linear regression, k nearest neighbors, support vector machines
-(svm), flat clustering, hierarchical clustering, and neural networks.
-
-for each major algorithm that we cover, we will discuss the high level intuitions of the algorithms
-and how they are logically meant to work. next, we'll apply the algorithms in code using real world
-data sets along with a module, such as with scikit-learn. finally, we'll be diving into the inner
-workings of each of the algorithms by recreating them in code, from scratch, ourselves, including
-all of the math involved. this should give you a complete understanding of exactly how the
-algorithms work, how they can be tweaked, what advantages are, and what their disadvantages are.
-in order to follow along with the series, i suggest you have at the very least a basic understanding of
-python. if you do not, i suggest you at least follow the python 3 basics tutorial until the module
-installation with pip tutorial. if you have a basic understanding of python, and the willingness to
-learn/ask questions, you will be able to follow along here with no issues. most of the machine
-learning algorithms are actually quite simple, since they need to be in order to scale to large
-datasets. math involved is typically linear algebra, but i will do my best to still explain all of the
-math. if you are confused/lost/curious about anything, ask in the comments section on youtube,
-the community here, or by emailing me. you will also need scikit-learn and pandas installed,
-along with others that we'll grab along the way.
-
-for each major algorithm that we cover, we will discuss the high level intuitions of the algorithms
-and how they are logically meant to work. next, we'll apply the algorithms in code using real world
-data sets along with a module, such as with scikit-learn. finally, we'll be diving into the inner
-workings of each of the algorithms by recreating them in code, from scratch, ourselves, including
-all of the math involved. this should give you a complete understanding of exactly how the
-algorithms work, how they can be tweaked, what advantages are, and what their disadvantages are.
-in order to follow along with the series, i suggest you have at the very least a basic understanding of
-python. if you do not, i suggest you at least follow the python 3 basics tutorial until the module
-installation with pip tutorial. if you have a basic understanding of python, and the willingness to
-learn/ask questions, you will be able to follow along here with no issues. most of the machine
-learning algorithms are actually quite simple, since they need to be in order to scale to large
-datasets. math involved is typically linear algebra, but i will do my best to still explain all of the
-math. if you are confused/lost/curious about anything, ask in the comments section on youtube,
-the community here, or by emailing me. you will also need scikit-learn and pandas installed,
-along with others that we'll grab along the way.
-python
-
 machine learning was defined in 1959 by arthur samuel as the "field of study that gives computers
 the ability to learn without being explicitly programmed." this means imbuing knowledge to
 machines without hard-coding it. from what i have personally found, people outside the
@@ -55,50 +15,4 @@ the soviet union to the united states by bell labs. the neural network was conce
 1940's, but computers at the time were nowhere near powerful enough to run them well, and have
 not been until the relatively recent times.
 
-the "idea" of machine learning has come in and out of favor a few times through history, each time
-leaving people thinking it was merely a fad. it is really only very recently that we've been able to
-put much of machine learning to any decent test. nowadays, you can spin up and rent a $100,000
-gpu cluster for a few dollars an hour, the stuff of phd student dreams just 10 years ago. machine
-learning got another up tick in the mid 2000's and has been on the rise ever since, also benefitting in
-general from moore's law. beyond this, there are ample resources out there to help you on your
-journey with machine learning, like this tutorial. you can just do a google search on the topic and
-find more than enough information to keep you busy for a while.
-
-this is so much so to the point where we now have modules and apis at our disposal, and you can
-engage in machine learning very easily without almost any knowledge at all of how it works. with
-the defaults from scikit-learn, you can get 90-95% accuracy on many tasks right out of the gate.
-
-machine learning is a lot like a car, you do not need to know much about how it works in order to
-get an incredible amount of utility from it. if you want to push the limits on performance and
-efficiency, however, you need to dig in under the hood, which is more how this course is geared. if
-you are just looking for a quick tutorial for employing machine learning on data, i already have a
-simple classification example tutorial and a simple clustering (unsupervised machine learning)
-example that you can check out.
-
-despite the apparent age and maturity of machine learning, i would say there's no better time than
-now to learn it, since you can actually use it. machines are quite powerful, the one you are working
-on can probably do most of this series quickly. data is also very plentiful lately.
-
-the first topic we'll be covering is regression, which is where we'll pick up in the next tutorial.
-make sure you have python 3 installed, along with pandas and scikit-learn.
-
-the first topic we'll be covering is regression, which is where we'll pick up in the next tutorial.
-make sure you have python 3 installed, along with pandas and scikit-learn.
-python
-
-for each major algorithm that we cover, we will discuss the high level intuitions of the algorithms
-and how they are logically meant to work. next, we'll apply the algorithms in code using real world
-data sets along with a module, such as with scikit-learn. finally, we'll be diving into the inner
-workings of each of the algorithms by recreating them in code, from scratch, ourselves, including
-all of the math involved. this should give you a complete understanding of exactly how the
-algorithms work, how they can be tweaked, what advantages are, and what their disadvantages are.
-in order to follow along with the series, i suggest you have at the very least a basic understanding of
-python. if you do not, i suggest you at least follow the python 3 basics tutorial until the module
-installation with pip tutorial. if you have a basic understanding of python, and the willingness to
-learn/ask questions, you will be able to follow along here with no issues. most of the machine
-learning algorithms are actually quite simple, since they need to be in order to scale to large
-datasets. math involved is typically linear algebra, but i will do my best to still explain all of the
-math. if you are confused/lost/curious about anything, ask in the comments section on youtube,
-the community here, or by emailing me. you will also need scikit-learn and pandas installed,
-along with others that we'll grab along the way.
-3
+16

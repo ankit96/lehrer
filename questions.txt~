@@ -1,0 +1,39 @@
+What is a pointer on pointer?
+Distinguish between malloc() & calloc() memory allocation.
+What is keyword auto for?
+What are the valid places for the keyword break to appear.
+Explain the syntax for for loop.
+What is difference between including the header file with-in angular braces and double quotes
+How a negative integer is stored.
+What is a static variable?
+What is a NULL pointer?
+What is the purpose of extern storage specifier?
+Explain the purpose of the function sprintf().
+What is the meaning of base address of the array?
+When should we use the register storage specifier?
+What is a dangling pointer?
+What is the purpose of the keyword typedef?
+What is lvalue and rvalue?
+What is the difference between actual and formal parameters?
+Can a program be compiled without main() function?
+What is the advantage of declaring void pointers?
+Where an automatic variable is stored?
+What is a nested structure?
+What is the difference between variable declaration and variable definition?
+What is a self-referential structure?
+Does a built-in header file contains built-in function definition?
+Explain modular programming.
+What is a token?
+What is a preprocessor?
+Explain the use of %i format specifier w.r.t scanf().
+How can you print a \ (backslash) using any of the printf() family of functions.
+Does a break is required by default case in switch statement?
+When to user -> (arrow) operator.
+What are bit fields?
+What are command line arguments?
+What is the purpose of built-in strcmp() function.
+Is FILE a built-in data type?
+How many operators are there under the category of ternary operators?
+Which key word is used to perform unconditional branching?
+What is a pointer to a function? Give the general syntax for the same.
+

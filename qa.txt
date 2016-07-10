@@ -1,0 +1,562 @@
+What is a pointer on pointer?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP (NP (DT a) (NN pointer)) (PP (IN on) (NP (NN pointer)))))
+  (. ?))
+
+a pointer
+a pointer on pointer
+----------------------------------------------------------------------------
+Distinguish between malloc() & calloc() memory allocation.
+
+(SQ+FRAG
+  (ADJP
+    (JJ distinguish)
+    (PP
+      (IN between)
+      (NP
+        (JJ malloc)
+        (NX
+          (-LRB- ()
+          (-RRB- ))
+          (CC &)
+          (NX (NNS calloc))
+          (-LRB- ()
+          (-RRB- ))
+          (NN memory)
+          (NN allocation)))))
+  (. .))
+
+malloc ( ) & calloc ( ) memory allocation
+----------------------------------------------------------------------------
+What is keyword auto for?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (JJ keyword) (NN auto)) (PP (IN for)))
+  (. ?))
+
+keyword auto
+----------------------------------------------------------------------------
+What are the valid places for the keyword break to appear.
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBP are)
+    (NP
+      (NP (DT the) (JJ valid) (NNS places))
+      (PP
+        (IN for)
+        (NP
+          (DT the)
+          (ADJP (JJ keyword) (JJ break) (PP (TO to)))
+          (VB appear)))))
+  (. .))
+
+the valid places
+the keyword break to appear
+the valid places for the keyword break to appear
+----------------------------------------------------------------------------
+Explain the syntax for for loop.
+
+(SBARQ
+  (SQ
+    (VBZ explain)
+    (NP
+      (NP (DT the) (NN syntax))
+      (PP (IN for) (IN for) (NP (NN loop)))))
+  (. .))
+
+the syntax
+the syntax for for loop
+----------------------------------------------------------------------------
+What is difference between including the header file with-in angular braces and double quotes
+
+(NP+SBAR
+  (WHNP (WP what))
+  (S+VP
+    (VBZ is)
+    (NP
+      (UCP
+        (NN difference)
+        (PP
+          (IN between)
+          (S+VP (VBG including) (NP (DT the) (NN header))))
+        (VP (VB file) (NP (JJ with-in) (NN angular)))
+        (NN braces)
+        (CC and)
+        (JJ double))
+      (NNS quotes))))
+
+the header
+with-in angular
+difference between including the header file with-in angular braces and double quotes
+----------------------------------------------------------------------------
+How a negative integer is stored.
+
+(SBAR
+  (WHADVP (WRB how))
+  (S
+    (NP (DT a) (JJ negative) (NN integer))
+    (VP (VBZ is) (VP (VBN stored)))
+    (. .)))
+
+a negative integer
+----------------------------------------------------------------------------
+What is a static variable?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (JJ static) (NN variable)))
+  (. ?))
+
+a static variable
+----------------------------------------------------------------------------
+What is a NULL pointer?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (JJ NULL) (NN pointer)))
+  (. ?))
+
+a NULL pointer
+----------------------------------------------------------------------------
+What is the purpose of extern storage specifier?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP
+      (NP (DT the) (NN purpose))
+      (PP (IN of) (NP (JJ extern) (JJ storage) (NN specifier)))))
+  (. ?))
+
+the purpose
+extern storage specifier
+the purpose of extern storage specifier
+----------------------------------------------------------------------------
+Explain the purpose of the function sprintf().
+
+(SQ+FRAG
+  (ADJP
+    (JJ explain)
+    (PRN
+      (NP
+        (NP (DT the) (NN purpose))
+        (PRT
+          (PP (IN of) (NP (DT the) (JJ function) (NN sprintf)))
+          ( ()))
+      (-RRB- ))))
+  (. .))
+
+the purpose
+the function sprintf
+the purpose of the function sprintf (
+----------------------------------------------------------------------------
+What is the meaning of base address of the array?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP
+      (NP
+        (NP (DT the) (NN meaning))
+        (PP (IN of) (NP (NN base) (NN address))))
+      (PP (IN of) (NP (DT the) (NN array)))))
+  (. ?))
+
+the array
+the meaning
+base address
+the meaning of base address
+the meaning of base address of the array
+----------------------------------------------------------------------------
+When should we use the register storage specifier?
+
+(SBARQ
+  (WHADVP (WRB when))
+  (SQ
+    (MD should)
+    (NP (PRP we))
+    (VP
+      (VB use)
+      (NP (NP (DT the) (NN register)) (JJ storage) (NN specifier))))
+  (. ?))
+
+the register
+the register storage specifier
+----------------------------------------------------------------------------
+What is a dangling pointer?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (VBG dangling) (NN pointer)))
+  (. ?))
+
+a dangling pointer
+----------------------------------------------------------------------------
+What is the purpose of the keyword typedef?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP
+      (NP (DT the) (NN purpose))
+      (PP (IN of) (NP (DT the) (JJ keyword) (NN typedef)))))
+  (. ?))
+
+the purpose
+the keyword typedef
+the purpose of the keyword typedef
+----------------------------------------------------------------------------
+What is lvalue and rvalue?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (JJ lvalue) (CC and) (NNS rvalue)))
+  (. ?))
+
+lvalue and rvalue
+----------------------------------------------------------------------------
+What is the difference between actual and formal parameters?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP
+      (NP (DT the) (NN difference))
+      (PP
+        (IN between)
+        (NP (JJ actual) (CC and) (JJ formal) (NN parameters)))))
+  (. ?))
+
+the difference
+actual and formal parameters
+the difference between actual and formal parameters
+----------------------------------------------------------------------------
+Can a program be compiled without main() function?
+
+(SBAR+SINV
+  (MD can)
+  (NP (DT a) (NN program))
+  (VP
+    (VB be)
+    (S
+      (VP
+        (VBN compiled)
+        (PP
+          (IN without)
+          (NP (JJ main) (-LRB- () (-RRB- )) (NN function))))
+      (. ?))))
+
+a program
+main ( ) function
+----------------------------------------------------------------------------
+What is the advantage of declaring void pointers?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP
+      (DT the)
+      (NP (NN advantage))
+      (PP
+        (IN of)
+        (S+VP (VBG declaring) (NP (JJ void) (NN pointers))))))
+  (. ?))
+
+void pointers
+the advantage of declaring void pointers
+----------------------------------------------------------------------------
+Where an automatic variable is stored?
+
+(SBAR
+  (WHADVP (WRB where))
+  (S
+    (NP (DT an) (JJ automatic) (NN variable))
+    (VP (VBZ is) (VP (VBN stored)))
+    (. ?)))
+
+an automatic variable
+----------------------------------------------------------------------------
+What is a nested structure?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (JJ nested) (NN structure)))
+  (. ?))
+
+a nested structure
+----------------------------------------------------------------------------
+What is the difference between variable declaration and variable definition?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP
+      (NP (DT the) (NN difference))
+      (PP
+        (IN between)
+        (NP
+          (NP (JJ variable) (NN declaration))
+          (CC and)
+          (JJ variable)
+          (NN definition)))))
+  (. ?))
+
+the difference
+variable declaration
+variable declaration and variable definition
+the difference between variable declaration and variable definition
+----------------------------------------------------------------------------
+What is a self-referential structure?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (JJ self-referential) (NN structure)))
+  (. ?))
+
+a self-referential structure
+----------------------------------------------------------------------------
+Does a built-in header file contains built-in function definition?
+
+(SBARQ
+  (SQ
+    (VBZ does)
+    (NP (DT a) (JJ built-in) (NN header))
+    (VP
+      (VB file)
+      (VBZ contains)
+      (VB built-in)
+      (NP (JJ function) (NN definition))))
+  (. ?))
+
+a built-in header
+function definition
+----------------------------------------------------------------------------
+Explain modular programming.
+
+(SBARQ (SQ (VBZ explain) (NP (JJ modular) (NN programming))) (. .))
+
+modular programming
+----------------------------------------------------------------------------
+What is a token?
+
+(SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (DT a) (NN token))) (. ?))
+
+a token
+----------------------------------------------------------------------------
+What is a preprocessor?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (NN preprocessor)))
+  (. ?))
+
+a preprocessor
+----------------------------------------------------------------------------
+Explain the use of %i format specifier w.r.t scanf().
+
+(SQ+FRAG
+  (ADJP
+    (JJ explain)
+    (PRN
+      (NP
+        (NP (DT the) (NN use))
+        (PRT
+          (PP
+            (IN of)
+            (NP
+              (NP (NP (NN %) (NN i)) (NN format) (NN specifier))
+              (JJ w.r.t)
+              (NN scanf)))
+          ( ()))
+      (-RRB- ))))
+  (. .))
+
+% i
+the use
+% i format specifier
+% i format specifier w.r.t scanf
+the use of % i format specifier w.r.t scanf (
+----------------------------------------------------------------------------
+How can you print a \ (backslash) using any of the printf() family of functions.
+
+(SBARQ
+  (WHADVP (WRB how))
+  (SQ
+    (MD can)
+    (NP (PRP you))
+    (VP
+      (VB print)
+      (PRN
+        (NP (DT a) (NN \))
+        (-LRB- ()
+        (NP (NNP backslash))
+        (-RRB- )))
+      (S+VP
+        (VBG using)
+        (NP
+          (DT any)
+          (PP (IN of) (NP (DT the) (NN printf)))
+          (NX
+            (-LRB- ()
+            (-RRB- ))
+            (NN family)
+            (PP (IN of) (NP (NN functions))))))))
+  (. .))
+
+a \
+the printf
+any of the printf ( ) family of functions
+----------------------------------------------------------------------------
+Does a break is required by default case in switch statement?
+
+(SBARQ
+  (SQ
+    (VBZ does)
+    (NP (DT a) (NN break))
+    (VP
+      (VBZ is)
+      (VBN required)
+      (PP
+        (IN by)
+        (NP
+          (NP (NN default) (NN case))
+          (PP (IN in) (NP (JJ switch) (NN statement)))))))
+  (. ?))
+
+a break
+default case
+switch statement
+default case in switch statement
+----------------------------------------------------------------------------
+When to user -> (arrow) operator.
+
+(SBAR
+  (WHADVP (WRB when))
+  (S
+    (VP
+      (TO to)
+      (VB user)
+      (NP
+        (PRN (: -) (NP (NNP >)) (-LRB- () (NP (NNP arrow)) (-RRB- )))
+        (NN operator)))
+    (. .)))
+
+- > ( arrow ) operator
+----------------------------------------------------------------------------
+What are bit fields?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBP are) (NP (JJ bit) (NNS fields)))
+  (. ?))
+
+bit fields
+----------------------------------------------------------------------------
+What are command line arguments?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBP are) (VBZ command) (NP (NN line) (NN arguments)))
+  (. ?))
+
+line arguments
+----------------------------------------------------------------------------
+What is the purpose of built-in strcmp() function.
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP
+      (NP
+        (NP (DT the) (NN purpose))
+        (PP (IN of) (NP (JJ built-in) (NN strcmp))))
+      (PRT ( () ( )) function)))
+  (. .))
+
+the purpose
+built-in strcmp
+the purpose of built-in strcmp
+the purpose of built-in strcmp ( ) function
+----------------------------------------------------------------------------
+Is FILE a built-in data type?
+
+(SBARQ
+  (SQ
+    (VBZ is)
+    (NP (NP (JJ FILE) (DT a) (JJ built-in) (NNS data)) (NN type)))
+  (. ?))
+
+FILE a built-in data
+FILE a built-in data type
+----------------------------------------------------------------------------
+How many operators are there under the category of ternary operators?
+
+(SBARQ
+  (WHNP (WHADJP (WRB how) (JJ many)) (NNS operators))
+  (SQ
+    (VBP are)
+    (NP (EX there))
+    (PP
+      (IN under)
+      (NP
+        (NP (DT the) (NN category))
+        (PP (IN of) (NP (JJ ternary) (NN operators))))))
+  (. ?))
+
+the category
+ternary operators
+the category of ternary operators
+----------------------------------------------------------------------------
+Which key word is used to perform unconditional branching?
+
+(SBARQ
+  (WHNP (WDT which) (NP (JJ key) (NN word)))
+  (SQ
+    (VBZ is)
+    (VP
+      (VBN used)
+      (S+VP
+        (TO to)
+        (VP (VB perform) (NP (JJ unconditional) (NN branching))))))
+  (. ?))
+
+key word
+unconditional branching
+----------------------------------------------------------------------------
+What is a pointer to a function? Give the general syntax for the same.
+
+(SINV
+  (SBARQ
+    (WHNP (WP what))
+    (SQ
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN pointer))
+        (PP (TO to) (NP (DT a) (NN function)))))
+    (. ?))
+  (NP
+    (NP (NNP Give) (DT the) (JJ general) (NN syntax))
+    (PP (IN for) (NP (DT the) (JJ same))))
+  (. .))
+
+the same
+a pointer
+a function
+a pointer to a function
+Give the general syntax
+Give the general syntax for the same
+----------------------------------------------------------------------------
