@@ -6,6 +6,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 import pprint
 from stat_parser import Parser
 import questanalyser
+import sys
 parser = Parser()
 
 
@@ -39,6 +40,7 @@ for sample_text in cont :
      		
      		if tokens[0].strip()=="what" or tokens[0].strip()=="What":
      			questanalyser.questiswhat(sample_text,tokens,parsed_tree,x)
+     			sys.exit()
      		
 	     		
 	print("----------------------------------------------------------------------------")

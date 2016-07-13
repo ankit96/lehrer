@@ -11,217 +11,37 @@ What is keyword auto for?
   (SQ (VBZ is) (NP (JJ keyword) (NN auto)) (PP (IN for)))
   (. ?))
 keyword auto
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-modifier : What
-What is a static variable?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBZ is) (NP (DT a) (JJ static) (NN variable)))
-  (. ?))
-a static variable
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-modifier : What
-What is a NULL pointer?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBZ is) (NP (DT a) (JJ NULL) (NN pointer)))
-  (. ?))
-a NULL pointer
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-modifier : What
-What is a dangling pointer?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBZ is) (NP (DT a) (VBG dangling) (NN pointer)))
-  (. ?))
-a dangling pointer
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-modifier : What
-What is lvalue and rvalue?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBZ is) (NP (JJ lvalue) (CC and) (NNS rvalue)))
-  (. ?))
-lvalue and rvalue
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-modifier : What
-What is a nested structure?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBZ is) (NP (DT a) (JJ nested) (NN structure)))
-  (. ?))
-a nested structure
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-modifier : What
-What is a self-referential structure?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBZ is) (NP (DT a) (JJ self-referential) (NN structure)))
-  (. ?))
-a self-referential structure
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-modifier : What
-What is a token?
-
-(SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (DT a) (NN token))) (. ?))
-a token
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-modifier : What
-What is a preprocessor?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBZ is) (NP (DT a) (NN preprocessor)))
-  (. ?))
-a preprocessor
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-modifier : What
-What are bit fields?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBP are) (NP (JJ bit) (NNS fields)))
-  (. ?))
-bit fields
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-modifier : What
-What are command line arguments?
-
-(SBARQ
-  (WHNP (WP what))
-  (SQ (VBP are) (VBZ command) (NP (NN line) (NN arguments)))
-  (. ?))
-line arguments
-
-about the tutorial
-c is a general-purpose, procedural, imperative computer programming language
-developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
-develop the unix operating system.
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
+{'auto': 0, 'keyword': 0}
+-----------------------------------------------------------------------
+['7. constants and literals ................................................................................................... 19\ninteger literals ........................................................................................................................................ 19\nfloating-point literals ............................................................................................................................. 20\ncharacter constants ................................................................................................................................ 20\nstring literals .......................................................................................................................................... 21\ndefining constants .................................................................................................................................. 22\nthe #define preprocessor ...................................................................................................................... 22\nthe const keyword ................................................................................................................................. 23', '8. storage classes................................................................................................................. 24\nthe auto storage class ............................................................................................................................ 24\nthe register storage class ....................................................................................................................... 24\nthe static storage class ........................................................................................................................... 25\nthe extern storage class ......................................................................................................................... 26']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['\nauto']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['\na variable declaration is useful when you are using multiple files and you define\nyour variable in one of the files which will be available at the time of linking the\nprogram. you will use the keyword extern to declare a variable at any place.']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['using const keyword', 'the const keyword\nyou can use const prefix to declare constants with a specific type as follows:\nconst type variable = value;\nthe following example explains it in detail:\n#include <stdio.h>']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['auto', 'the auto storage class\nthe auto storage class is the default storage class for all local variables.']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['\n{\nint mount;\nauto int month;\n}\nthe example above defines two variables within the same storage class. \xe2\x80\x98auto\xe2\x80\x99\ncan only be used within functions, i.e., local variables.']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['\n.\nlabel: statement;\nhere label can be any plain text except c keyword and it can be set anywhere in\nthe c program above or below to goto statement.']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['return type: a function may return a value. the return_type is the\ndata type of the value the function returns. some functions perform the\ndesired operations without returning a value. in this case, the return_type\nis the keyword void.']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['accessing structure members\nto access any member of a structure, we use the member access operator\n(.). the member access operator is coded as a period between the structure\nvariable name and the structure member that we wish to access. you would\nuse the keyword struct to define variables of structure type. the following\nexample shows how to use a structure in a program:\n#include <stdio.h>\n#include <string.h>']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['\nthe member access operator is coded as a period between the union variable\nname and the union member that we wish to access. you would use the keyword\nunion to define variables of union type. the following example shows how to\nuse unions in a program:\n#include <stdio.h>\n129']
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+['the c programming language provides a keyword called typedef, which you can\nuse to give a type, a new name. following is an example to define a\nterm byte for one-byte numbers:\ntypedef unsigned char byte;\nafter this type definition, the identifier byte can be used as an abbreviation for\nthe type unsigned char, for example:\nbyte']
+-----------------------------------------------------------------------
