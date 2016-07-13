@@ -1,8 +1,9 @@
+#converts a pdf file into text
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter#process_pdf
 from pdfminer.pdfpage import PDFPage
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
-
+import cPickle
 from PyPDF2 import PdfFileWriter, PdfFileReader
 import subprocess
 
@@ -10,7 +11,7 @@ paras=[]
 para=''
 
 def extracttext():
-	with open('pdftotext.txt') as f:
+	with open('cprogramming.txt') as f:
 	    content = f.readlines()
 	para=''
 	
@@ -35,7 +36,7 @@ def consult_pdftotext(filename):
     # don't forget that final hyphen to say, write to stdout!!
     i=1
     while i<=1:
-	    cmd_args = [ "pdftotext", "-f",str(i), "-l", "3", filename, "pdftotext.txt" ]
+	    cmd_args = [ "pdftotext", "-f",str(i), "-l", "185", filename, "cprogramming.txt" ]
 	    pdf_pipe = subprocess.Popen(cmd_args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 	    extracttext()
 	    i=i+1
@@ -62,8 +63,9 @@ def average(paras):
 			ave=(int(ave)+int(calculate(a)))/2.0
 	return ave
 
-consult_pdftotext("data.pdf")
-
+consult_pdftotext("cprogramming.pdf")
+cPickle.dump(paras, open('cprogramming.p', 'wb')) 	
+"""
 avg=average(paras)
 
 i=0
@@ -103,5 +105,5 @@ for a in paras:
 print index 
 print ''
 print maxct
-
+"""
 

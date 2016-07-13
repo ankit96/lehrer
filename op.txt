@@ -1,18 +1,227 @@
 
-machine learning was defined in 1959 by arthur samuel as the "field of study that gives computers
-the ability to learn without being explicitly programmed." this means imbuing knowledge to
-machines without hard-coding it. from what i have personally found, people outside the
-programming community mainly believe machine intelligence is hard-coded, completely unaware
-of the reality of the field. one of the largest challenges i had with machine learning was the
-abundance of material on the learning part. you can find formulas, charts, equations, and a bunch of
-theory on the topic of machine learning, but very little on the actual "machine" part, where you
-actually program the machine and run the algorithms on real data. this is mainly due to the history.
-in the 50s, machines were quite weak, and in very little supply, which remained very much the case
-for half a century. machine learning was relegated to being mainly theoretical and rarely actually
-employed. the support vector machine (svm), for example, was created by vladimir vapnik in
-the soviet union in 1963, but largely went unnoticed until the 90s when vapnik was scooped out
-the soviet union to the united states by bell labs. the neural network was conceived in the
-1940's, but computers at the time were nowhere near powerful enough to run them well, and have
-not been until the relatively recent times.
+----------------------------------------------------------------------------
 
-16
+----------------------------------------------------------------------------
+
+modifier : What
+What is keyword auto for?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (JJ keyword) (NN auto)) (PP (IN for)))
+  (. ?))
+keyword auto
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+modifier : What
+What is a static variable?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (JJ static) (NN variable)))
+  (. ?))
+a static variable
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+modifier : What
+What is a NULL pointer?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (JJ NULL) (NN pointer)))
+  (. ?))
+a NULL pointer
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+modifier : What
+What is a dangling pointer?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (VBG dangling) (NN pointer)))
+  (. ?))
+a dangling pointer
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+modifier : What
+What is lvalue and rvalue?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (JJ lvalue) (CC and) (NNS rvalue)))
+  (. ?))
+lvalue and rvalue
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+modifier : What
+What is a nested structure?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (JJ nested) (NN structure)))
+  (. ?))
+a nested structure
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+modifier : What
+What is a self-referential structure?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (JJ self-referential) (NN structure)))
+  (. ?))
+a self-referential structure
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+modifier : What
+What is a token?
+
+(SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (DT a) (NN token))) (. ?))
+a token
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+modifier : What
+What is a preprocessor?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBZ is) (NP (DT a) (NN preprocessor)))
+  (. ?))
+a preprocessor
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+modifier : What
+What are bit fields?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBP are) (NP (JJ bit) (NNS fields)))
+  (. ?))
+bit fields
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+modifier : What
+What are command line arguments?
+
+(SBARQ
+  (WHNP (WP what))
+  (SQ (VBP are) (VBZ command) (NP (NN line) (NN arguments)))
+  (. ?))
+line arguments
+
+about the tutorial
+c is a general-purpose, procedural, imperative computer programming language
+developed in 1972 by dennis m. ritchie at the bell telephone laboratories to
+develop the unix operating system.
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
